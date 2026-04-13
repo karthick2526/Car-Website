@@ -440,6 +440,115 @@ hr {
 	text-align: center;
 }
 
+/*choose us*/
+
+
+.choose .c-title:hover {
+	text-shadow: var(--text-shadow);
+}
+.choose .c-title {
+	font-size: 2.5rem;
+	color: white;
+	font-weight: 600;
+	text-align: center;
+	cursor: pointer;
+}
+
+.choose .c-title span {
+	color: var(--main-color);
+}
+
+.choose-us {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.c-us {
+  border: 1px solid #555;
+  padding: 20px;
+  width: 300px;
+  height: 150px;
+  border-radius: 8px;
+  background: white;
+  transition: 0.3s;
+}
+.c-us i {
+	margin-left: 90px;
+	font-size: 50px;
+}
+
+.c-us p {
+	margin-top: 25px;
+	margin-left: 28px;
+	margin-bottom: 5px;
+}
+
+.c-us:hover {
+  background-color:  #468A9A;
+  transform: scale(1.05);
+}
+
+/*book a test drive*/
+
+
+.book-drive {
+  text-align: center;
+  padding: 50px 20px;
+  background: rgba(0,0,0,0.7);
+}
+
+.b-title {
+ font-size: 2.5rem;
+	color: white;
+	font-weight: 600;
+	text-align: center;
+	cursor: pointer;
+	margin-top: 50px;
+}
+
+.book-drive .b-title:hover {
+	text-shadow: var(--text-shadow);
+}
+
+.book-drive .b-title span {
+	color: var(--main-color);
+}
+
+.b-form {
+  max-width: 400px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.b-form input,
+.b-form select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.b-form button {
+  width: 100%;
+  padding: 12px;
+  background: #ff3c3c;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.b-form button:hover {
+  background: #e62e2e;
+}
+
+
 /*contact section*/
 
 
@@ -682,6 +791,14 @@ footer span {
 
 	}
 
+	.choose .c-title {
+		font-size: 2rem;
+	}
+
+	.b-title {
+		font-size: 2rem;
+	}
+
 }
 
 
@@ -830,6 +947,9 @@ footer span {
 		padding: 1rem;
 	}
 
+	footer {
+		font-size: 0.8rem;
+   }
 
 }
 
